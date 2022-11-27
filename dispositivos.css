@@ -1,0 +1,144 @@
+@media screen and (max-width:1262px){
+	.logo-tm{
+        margin-left: 185px;
+    }
+}
+
+@media screen and (max-width:1237px){
+	.logo-tm{
+        margin-left: 163px;
+    }
+}
+
+@media screen and (max-width:1220px){
+	.logo-tm{
+        margin-left: 145px;
+    }
+}
+
+@media screen and (max-width:1193px){
+	.logo-tm{
+        margin-left: 118px;
+    }
+}
+
+@media screen and (max-width:1164px){
+	.logo-tm{
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:1129px){
+	.logo-tm{
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width:1092px){
+	.logo-tm{
+        margin-left: 118px;
+    }
+
+    .logo{
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width:1057px){
+	.logo-tm{
+        margin-left: 83px;
+    }
+}
+
+@media screen and (max-width:1020px){
+	.logo-tm{
+        margin-left: 90px;
+    }
+
+    .logo{
+        margin-right: 156px;
+    }
+}
+
+@media screen and (max-width:972px){
+	.logo-tm{
+        margin-left: 51px;
+    }
+
+    .logo{
+        margin-right: 146px;
+    }
+}
+
+@media screen and (max-width:924px){
+	.logo-tm{
+        margin-left: 33px;
+    }
+
+    .logo{
+        margin-right: 116px;
+    }
+}
+
+@media screen and (max-width:884px){
+	.logo-tm{
+        margin-left: 30px;
+    }
+
+    .logo{
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width:840px){
+    .logo{
+        margin-right: 55px;
+    }
+
+    .logo-tm{
+        width: 205px;
+    }
+}
+
+@media screen and (max-width:840px){
+    .logo{
+        margin-right: 25px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:755px){
+    .logo{
+        margin-right: 15px;
+        width: 75px;
+    }
+
+    .logo-tm{
+        margin-left: 25px;
+        width: 177px;
+    }
+}
+
+@media screen and (max-width:715px){
+    .logo, .logo-tm{
+      display: none;
+    }
+
+    .logo2, .logo-tm2{
+        display: inline;
+      }
+}
+
+@media screen and (max-width:528px){
+    .logo-tm2{
+        display: none;
+    }
+    }
+
+
+@media screen and (max-width:445px){
+.contenedor {
+	grid-template-columns: repeat(3, 1fr);
+
+}
+}
