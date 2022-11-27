@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #34084e;
+}
+
+body::-webkit-scrollbar{
+	width: 7px;
+  
+  }
+  
+  body::-webkit-scrollbar-thumb{
+	background:#34084e;
+  border-radius: 0px;
+  
+  }
+
+
+.tarjeta .adelante .poster {
+	width: 200px;
+	margin-bottom: 10px;
+	/*border-radius: 15px;*/
+}
+
+.trailer{
+  color: aqua;
+}
+
+.titulo {
+	font-size: 20px;
+	font-weight: 60;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+
+.wrap{
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 200px;
+	height: 300px;
+	background: #34084e;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/*.adelante{
+	width: 100%;
+}*/
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px;
+    display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+    align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #471b61;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.logo2{
+	width: 85px;
+    margin: 5px;
+	/*display: none;*/
+}
+
+.logo-tm2{
+	width: 226px;
+	margin-top: 30px;
+	margin-right: 10px;
+	float: right;
+	/*display: none;*/
+}
+
+.tendencia{
+	color: white;
+	font-size: 38px;
+	text-align: center;
+}
+
+.linea {
+	margin:0px 20px;
+	width: 510px;    
+	border-top:1px solid #999;
+	position: relative;
+	top:10px;
+	float:left;
+	align-content: center;
+	}
+
+	.linea2 {
+		margin:0px 20px;
+		width: 510px;    
+		border-top:1px solid #999;
+		position: relative;
+		top:10px;
+		float:left;
+		align-content: center;
+		}
+  
+  .leyenda {
+	float:left;
+	margin-bottom: 25px;
+	margin-top: -15px;
+   }
+
+   .leyenda, .tendencia{
+	font-weight:bold;
+   }
+
+   .divison{
+	align-content: center;
+   }
