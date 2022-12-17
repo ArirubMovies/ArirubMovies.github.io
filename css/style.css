@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -167,3 +169,90 @@ body::-webkit-scrollbar{
    .divison{
 	align-content: center;
    }
+
+   .ads{
+	display: flex;
+	flex-direction: column;
+	margin: 1rem auto;
+	box-shadow: 0 3px 7px -1px rgba(#000, .1);
+	margin-bottom: 5%;
+	background: #420466;
+	line-height: 1.4;
+	font-family: sans-serif;
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 0;
+	text-align: center;
+	display:table-row;
+	box-shadow: 0px 0px 5px 1px black;
+	float: right;
+  }
+
+  .info-amazon{
+	font-size: 77%;
+	font-family: 'Nunito Sans', sans-serif;
+	color: beige;
+  }
+
+  a {
+	color: inherit;
+  }
+
+  a:hover {
+	color: #d65a5a;
+  }
+
+.izq{
+	display:table-cell;
+	border:0px solid black;
+	width:25%;
+	padding:10px;
+	color: beige;
+}
+
+  .ads img{
+	width: 35%;
+	margin:auto;
+	display:block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform .2s;
+  }
+
+  .arirubshop{
+	color: white;
+  }
+
+  .titlle-shop{
+    color: #38B5FD;
+}
+
+@media screen and (max-width: 618px){
+     
+	.izq h3{
+		font-size: 85%;
+	}
+
+}
+@media screen and (max-width: 618px){
+     
+	.info-amazon{
+		font-size: 47%;
+	  }
+
+}
+@media screen and (max-width: 618px){
+     
+	.izq h3{
+		font-size: 45%;
+	}
+	.info-amazon{
+		font-size: 37%;
+	  }
+
+
+}
