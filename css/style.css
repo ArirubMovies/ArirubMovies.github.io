@@ -231,6 +231,35 @@ body::-webkit-scrollbar{
     color: #38B5FD;
 }
 
+
+@media screen and (max-width: 724px){
+     
+	.contenedor {
+		margin: 40px auto 100px 1px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 30px;
+	}
+	.linea, .linea2 {
+		width: 230px;
+	}
+
+}
+
+@media screen and (max-width: 606px){
+     
+	.contenedor {
+		margin: 40px auto 100px 65px;
+		display: grid;
+		grid-template-columns: repeat(2, 0fr);
+		gap: 40px;
+	}
+	.linea, .linea2 {
+		width: 180px;
+	}
+
+}
+
 @media screen and (max-width: 618px){
      
 	.izq h3{
@@ -254,5 +283,67 @@ body::-webkit-scrollbar{
 		font-size: 37%;
 	  }
 
+
+}
+
+@media screen and (max-width: 550px){
+     
+	.contenedor {
+		margin: 40px auto 100px 35px;
+		display: grid;
+		grid-template-columns: repeat(2, 0fr);
+		gap: 40px;
+	}
+	.linea, .linea2 {
+		width: 150px;
+	}
+	.logo2{
+		width: 45px;
+	}
+	.logo-tm2{
+		width: 130px;
+	}
+
+}
+
+@media screen and (max-width: 550px){
+     
+	.contenedor {
+		margin: 40px auto 100px 25px;
+		display: grid;
+		grid-template-columns: repeat(2, 0fr);
+		gap: 40px;
+	}
+	.linea, .linea2 {
+		width: 125px;
+}
+
+}
+
+@media screen and (max-width: 460px){
+     
+	.contenedor {
+		margin: 40px auto 100px 1.5px;
+		display: grid;
+		grid-template-columns: repeat(2, 0fr);
+		gap: 20px;
+	}
+	.linea, .linea2 {
+		width: 99px;
+}
+
+}
+
+@media screen and (max-width: 370px){
+     
+	.contenedor {
+		margin: 40px auto 100px 75px;
+		display: grid;
+		grid-template-columns: repeat(1, 0fr);
+		gap: 10px;
+	}
+	.linea, .linea2 {
+		width: 55px;
+}
 
 }
